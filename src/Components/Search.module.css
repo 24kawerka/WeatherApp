@@ -1,0 +1,44 @@
+.wrapper {
+	text-align: center;
+	box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+	opacity: 0.9;
+	border: 2px solid black;
+	background: rgb(32, 66, 156);
+	width: 800px;
+	margin: auto;
+	height: 500px;
+	text-align: center;
+}
+
+form.example input[type="text"] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 70%;
+	background: #f1f1f1;
+}
+form.example button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: rgb(249, 168, 27);
+	color: rgb(24, 46, 129);
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.titleText {
+	text-align: center;
+	font-size: 40;
+	color: rgb(249, 168, 27);
+	padding: 20;
+	font-weight: 700;
+}
